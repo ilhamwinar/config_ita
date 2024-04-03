@@ -10,17 +10,15 @@ from datetime import datetime
 import mysql.connector
 import socket
 
-# user="ita_db"
-# password="Jmt02024!#db"
-# host="175.10.1.11"
-# database="db_aicctv"
-
-user="dbdev"
-password="jmto2024"
-host="175.10.1.101"
+user="ita_db"
+password="Jmt02024!#db"
+host="175.10.1.11"
 database="db_aicctv"
 
-
+# user="dbdev"
+# password="jmto2024"
+# host="175.10.1.101"
+# database="db_aicctv"
 
 app = FastAPI()
 app.add_middleware(

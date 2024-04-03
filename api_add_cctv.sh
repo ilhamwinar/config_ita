@@ -13,11 +13,6 @@ do
         sleep 5 #{}
     fi #{}
 
-    # if ! ps aux | grep -v grep | grep 'python3 coba.py' > /dev/null
-    # then #{}
-    #     python3 coba.py &
-    #     sleep 3 #{}
-    # fi #{}
 
 sleep 10
 done

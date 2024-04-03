@@ -11,9 +11,9 @@ import signal
 
 delay=20
 
-user="dbdev"
-password="jmto2024"
-host="175.10.1.101"
+user="ita_db"
+password="Jmt02024!#db"
+host="175.10.1.11"
 database="db_aicctv"
 cwd = os.getcwd()
 
@@ -191,7 +191,7 @@ do"""
     if ! ps aux | grep -v grep | grep 'python3 ITA.py --Location {}' > /dev/null
     then 
         python3 ITA.py --Location '{}' &
-        sleep 15 
+        sleep 5 
     fi 
 sleep 10
 done
